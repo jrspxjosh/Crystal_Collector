@@ -31,7 +31,12 @@ $(document).on("click", ".crystals", function() {
   console.log(number);
   yourNumber += parseInt(number);
 
-  //if yourNumber == goal => you win and update wins
+console.log(randomNumber);
+console.log(yourNumber);
+if (yourNumber == randomNumber){
+  alert("You Win");
+  wins++;
+}
   //if yourNumber > goal => you lose update losses
 
   //reset the game => set yourNumber back to 0 and get a new random number
