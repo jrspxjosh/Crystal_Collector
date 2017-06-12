@@ -7,7 +7,7 @@ var randomNumber;
 var images = ["assets/images/crystal1.png", "assets/images/crystal2.png", "assets/images/crystal3.png", "assets/images/crystal4.png"];
 
 
-
+//generate randomNumber
 
 function getRandomInt(min, max) {
     	return Math.floor(Math.random() * (max - min + 1)) + min;
